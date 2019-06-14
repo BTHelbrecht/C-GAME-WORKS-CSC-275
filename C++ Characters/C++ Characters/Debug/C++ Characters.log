@@ -1,5 +1,16 @@
-﻿  Game_Main.cpp
+﻿  Dreadnought.cpp
+  Fighter.cpp
+  Game_Main.cpp
+c:\users\carne\onedrive\desktop\school\csc275\c-game-works-csc-275\c++ characters\c++ characters\vessel.h(29): error C2011: 'Vessel': 'class' type redefinition
+  c:\users\carne\onedrive\desktop\school\csc275\c-game-works-csc-275\c++ characters\c++ characters\vessel.h(28): note: see declaration of 'Vessel'
+c:\users\carne\onedrive\desktop\school\csc275\c-game-works-csc-275\c++ characters\c++ characters\mechanisms.h(16): fatal error C1014: too many include files: depth = 1024
   Mechanisms.cpp
+c:\users\carne\onedrive\desktop\school\csc275\c-game-works-csc-275\c++ characters\c++ characters\vessel.h(29): error C2011: 'Vessel': 'class' type redefinition
+  c:\users\carne\onedrive\desktop\school\csc275\c-game-works-csc-275\c++ characters\c++ characters\vessel.h(28): note: see declaration of 'Vessel'
+c:\users\carne\onedrive\desktop\school\csc275\c-game-works-csc-275\c++ characters\c++ characters\userstoryboard.h(16): fatal error C1014: too many include files: depth = 1024
+  UserStoryBoard.cpp
+c:\users\carne\onedrive\desktop\school\csc275\c-game-works-csc-275\c++ characters\c++ characters\vessel.h(29): error C2011: 'Vessel': 'class' type redefinition
+  c:\users\carne\onedrive\desktop\school\csc275\c-game-works-csc-275\c++ characters\c++ characters\vessel.h(28): note: see declaration of 'Vessel'
+c:\users\carne\onedrive\desktop\school\csc275\c-game-works-csc-275\c++ characters\c++ characters\mechanisms.h(16): fatal error C1014: too many include files: depth = 1024
   Vessel.cpp
   Generating Code...
-  C++ Characters.vcxproj -> C:\Users\carne\OneDrive\Desktop\School\CSC275\C-GAME-WORKS-CSC-275\C++ Characters\Debug\C++ Characters.exe

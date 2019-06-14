@@ -115,13 +115,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Dreadnought.cpp" />
+    <ClCompile Include="Fighter.cpp" />
     <ClCompile Include="Game_Main.cpp" />
     <ClCompile Include="Mechanisms.cpp" />
+    <ClCompile Include="UserStoryBoard.cpp" />
     <ClCompile Include="Vessel.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Dreadnought.h" />
+    <ClInclude Include="Fighter.h" />
     <ClInclude Include="Mechanisms.h" />
+    <ClInclude Include="UserStoryBoard.h" />
     <ClInclude Include="Vessel.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C++ Characters.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -13,22 +13,56 @@
 #include <iostream>									// using in/out streams
 #include <vector>									// using Vectors... as lists... in place of arrays
 #include <string>									// using strings for variable types
-#include  "Vessel.h"
+
+
 
 
 // Namespaces
 using namespace std;								// standard Library... cin, cout, etc.. AVOID Name Conflict
 
+
+
+int userInputNumber();
+
+
 void Information(Vessel vessel);
 
+
+
+
+
+
+
+
+//*************************************************************************************************************
+// MECHANISMS CLASS  - - - Under Construction
+//*************************************************************************************************************
+/*
 class Mechanisms
 {
-public:
+
+private:
+	string userInString;
+	double userInDouble;
+	int userInInt;
 	
-	// Initializer Constructor
+public:
+	void setUserString(string setString);
+	void setUserDouble(double setDouble);
+	void setUserInt(int setInt);
+
+	string getUserString();
+	double getUserDouble();
+	int getUserInt();
+
+
+	// Constructor
 	Mechanisms();
+	
 
 	// Destructor
 	~Mechanisms();
 };
+*/
+
 

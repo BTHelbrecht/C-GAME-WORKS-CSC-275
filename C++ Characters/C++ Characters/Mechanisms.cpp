@@ -16,6 +16,7 @@
 #include "Mechanisms.h"
 
 
+
 // Namespaces
 using namespace std;								// standard Library... cin, cout, etc.. AVOID Name Conflict
 
@@ -32,16 +33,38 @@ void Information(Vessel vessel)
 	cout << "Hull Integrity " << vessel.getIntegrity() << endl;
 }
 
+int userInputNumber()
+{
+	int temp;
+	cin >> temp;
+	return temp;
+}
 
 
 
 
+//*************************************************************************************************************
+// MECHANISMS CLASS  - - - Under Construction
+//*************************************************************************************************************
+/*
+void Mechanisms::setUserString(string setString) { userInString = setString; }
+void Mechanisms::setUserDouble(double setDouble) { userInDouble = setDouble; }
+void Mechanisms::setUserInt(int setInt) { userInInt = setInt; }
 
+string Mechanisms::getUserString() { return userInString; }									// returns the class
+double Mechanisms::getUserDouble() { return userInDouble; }									// returns the speed
+int Mechanisms::getUserInt() { return userInInt; }
+
+
+
+// Initializer Constructor
 Mechanisms::Mechanisms()
 {
 }
 
 
+
 Mechanisms::~Mechanisms()
 {
 }
+*/

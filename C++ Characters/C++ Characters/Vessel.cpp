@@ -24,11 +24,13 @@ using namespace std;								// standard Library... cin, cout, etc.. AVOID Name C
 // METHODS
 //*************************************************************************************************************
 // Setters
+void Vessel::setName(string setName) { *vesselName = setName; }
 void Vessel::setClass(string setClass) { *vesselClass = setClass; }					// sets new string argument to class
 void Vessel::setSpeed(double setSpeed) { *vesselSpeed = setSpeed; }					// sets new double argument to speed
 void Vessel::setIntegrity(int setIntegrity) { *vesselIntegrity = setIntegrity; }	// sets new int argument to health
 
 // Getters
+string Vessel::getName() { return *vesselName; }
 string Vessel::getClass() { return *vesselClass; }									// returns the class
 double Vessel::getSpeed() { return *vesselSpeed; }									// returns the speed
 int Vessel::getIntegrity() { return *vesselIntegrity; }								// returns the health
@@ -36,8 +38,11 @@ int Vessel::getIntegrity() { return *vesselIntegrity; }								// returns the he
 
 // Initializer Constructor Method (looks for - string, double, or int)
 	// Initializes values of class, speed, and health
-Vessel::Vessel(string classValue, double speedValue, int IntegrityValue)
+Vessel::Vessel(string nameValue, string classValue, double speedValue, int IntegrityValue)
 {
+	vesselName = new string;
+	*vesselName = nameValue;
+
 	vesselClass = new string;						// class string equal to new string
 	*vesselClass = classValue;						// point new variable to class
 
@@ -53,6 +58,9 @@ Vessel::Vessel(string classValue, double speedValue, int IntegrityValue)
 	// Initializes values of class, speed, health
 Vessel::Vessel(const Vessel &source)
 {
+	vesselName = new string;
+	*vesselName = *source.vesselName;
+
 	vesselClass = new string;						// class string equal to new string
 	*vesselClass = *source.vesselClass;				// reference class to new variable
 
